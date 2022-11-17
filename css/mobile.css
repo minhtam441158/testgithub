@@ -1,0 +1,314 @@
+@media only screen and (max-width:1200px) {
+    #menu {
+        border: none;
+        padding-bottom: 10px;
+    }
+
+    #menu .container {
+        display: block !important;
+    }
+
+    #menu .logo {
+        text-align: center;
+    }
+
+    .navbar {
+        display: none;
+        background-color: #FFF;
+        position: relative;
+        z-index: 9999;
+    }
+
+    .navbar .navbar-nav {
+        display: block !important;
+    }
+
+    .navbar li.nav-item {
+        border-right: none;
+        border-bottom: 1px solid var(--blue);
+        padding: 10px;
+    }
+
+    .navbar a.nav-link {
+        padding: 0;
+        font-size: 20px;
+    }
+
+    .toogle-menu {
+        display: block;
+    }
+
+    #slider1 {
+        margin-top: 0px;
+    }
+
+    .slider-for img {
+        width: 100%;
+        height: auto;
+    }
+
+    .slider-nav .slider-product__nav {
+        padding: 0px 5px;
+    }
+
+    .slider-nav img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width:992px) {
+    .contact-home {
+        padding: 10px 0px;
+    }
+
+    .contact-honme__text {
+        margin-bottom: 10px;
+    }
+
+    .copyrights .row {
+        display: block;
+        text-align: center;
+    }
+
+    .copyrights-bank {
+        justify-content: center !important;
+        padding-bottom: 20px;
+    }
+
+    .introduce-images__small img,
+    .new-list__box .new-list__images img {
+        height: auto;
+    }
+
+    .introduce-images {
+        margin-bottom: 20px !important;
+        margin-top: 0 !important;
+    }
+
+    .title-news {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .news-details__content {
+        padding: 0;
+    }
+
+    .news-details__images img {
+        margin-bottom: 5px;
+    }
+
+    .news-details__info {
+        padding: 0px 15px;
+    }
+
+    .news-list__content {
+        margin-top: 30px;
+    }
+
+    .partner {
+        margin-top: 30px !important;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    #header {
+        padding: 0px 15px;
+    }
+
+    .header-info span {
+        font-size: 13px;
+    }
+
+    #menu {
+        padding-bottom: 0;
+    }
+
+    .logo img {
+        margin-top: 3px;
+        width: 100px !important;
+    }
+
+    .toogle-menu {
+        margin-top: 4px;
+    }
+
+    .toogle-menu .fas.fa-bars,
+    .toogle-menu .fas.fa-times {
+        font-size: 40px;
+    }
+
+    .search-btn i.fa-search,
+    .search-close i.fa-times,
+    .header-info i.fa-phone-alt {
+        font-size: 0.8em;
+        margin: 0;
+    }
+
+    .navbar a.nav-link {
+        font-size: 14px;
+    }
+
+    #menu.sticky .navbar a.nav-link {
+        font-size: 14px;
+        padding: 7px 0px;
+    }
+
+    .navbar li.nav-item {
+        padding: 0;
+    }
+
+    #menu .logo img {
+        width: 90px;
+        height: auto;
+    }
+
+    #menu.sticky {
+        height: auto;
+    }
+
+    .register-content .d-flex {
+        flex-direction: column;
+        margin-bottom: 0 !important;
+    }
+
+    .register-content .form-group {
+        margin: 0px auto 15px auto;
+        width: 100% !important;
+    }
+
+    .register-content {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .form-footer button {
+        margin-top: 15px;
+    }
+}
+
+@media only screen and (max-width:576px) {
+    .slider1-content h4 {
+        font-size: 16px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .slider1-content__link {
+        font-size: 12px;
+        padding: 5px 20px;
+        margin-bottom: 10px;
+    }
+
+    .big-title,
+    .service-title,
+    #slider2 .price,
+    .title-news div,
+    .footer-title {
+        font-size: 20px;
+    }
+
+    .service-text__small,
+    .agancy-wrapper p,
+    .contact-home__btn,
+    .introduce-content p,
+    .introduce-content b,
+    .news-details__list li a,
+    .register-title,
+    .form-footer button,
+    .service-product .service-product__item a,
+    #slider2 .price,
+    .service-paragraph .price,
+    .service-details__title,
+    .service-details__price,
+    .setup .setup-btn,
+    .description-title,
+    .specifications-title,
+    .like-product__title,
+    .contact-honme__text,
+    #slider2 .discount,
+    .footer-address,
+    .footer-phone a,
+    .footer-email a,
+    .footer-list li a,
+    .copyrights-text,
+    .option-service label,
+    .option-service select,
+    .service .calendar-containers label,
+    #datepicker input {
+        font-size: 17px;
+    }
+
+    .news-home-title h4,
+    .switch-pages__title,
+    .small-title,
+    .service-paragraph .title-small,
+    .introduce-title,
+    .news-details__search input,
+    .new-list-title,
+    .pagination .panination-list li a {
+        font-size: 19px;
+    }
+
+    .news-details__search button i.fa-search,
+    .pagination .panination-list .control-next i.fa-chevron-right,
+    .switch-pages__icon i.fa-chevron-right {
+        font-size: 1.2rem;
+    }
+
+    .news-details__search {
+        margin-bottom: 20px;
+    }
+
+    .switch-pages__content {
+        min-height: auto;
+    }
+
+    .news-details__list li a {
+        padding: 5px 0px;
+    }
+
+    .switch-pages__title {
+        padding: 10px 0px;
+    }
+
+    #slider2 .title-small,
+    .footer-content,
+    .service-paragraph .title-small {
+        padding-bottom: 5px;
+    }
+
+    #slider2 .price,
+    .service-paragraph .price {
+        margin: 0;
+    }
+
+    .introduce-info {
+        margin-top: 10px !important;
+    }
+
+    .big-title {
+        padding: 0;
+    }
+
+    .service-icon {
+        padding-top: 30px;
+    }
+
+    .switch-service {
+        display: block !important;
+    }
+
+    .switch-service .switch-pages__title {
+        padding: 10px 0px;
+    }
+
+    .option-service {
+        margin: 10px 0px;
+    }
+
+    .service-product .service-product__item a {
+        padding: 7px;
+    }
+}
